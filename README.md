@@ -20,7 +20,8 @@ To see if your system is set up correctly, try [running the first example](./1-g
 ## Virtual environments
 
 Some people love using virtual environments.
-If you are one (or are working for or being taught by one), you can run all this in a virtual environment using [these instructions](https://docs.python.org/3/tutorial/venv.html).
+If you are one, feel free!
+If you are working for or being taught by one, you might like [these instructions](https://docs.python.org/3/tutorial/venv.html).
 
 ## Setting up
 
@@ -41,8 +42,17 @@ If that doesn't work find someone who knows how to do Python on Mac. I don't!
 
 ## Stuff about C
 
-C is older than the internet, so there is no "official online C documentation" or anything like that.
-There are a lot of excellent books though, and a lot of less excellent tutorials.
+C is older than the internet: there is no "official online C documentation" or anything like that.
+There are a lot of excellent books, and some less excellent tutorials.
+
+Don't confuse C with C++: C is much simpler than C++, which is an entirely separate language.
+It's sometimes called [ANSI C](https://en.wikipedia.org/wiki/ANSI_C).
+
+There are [several versions of the C standard](https://stackoverflow.com/questions/16403311/what-version-of-c-does-python-take).
+For maximum compatibility, write in C89.
+For a while this was the only option if you wanted your code to work on Windows.
+Now, it seems to be OK to use newer versions like C99.
+Luckily, because C is so old there isn't actually much difference between these standards.
 
 A good free resource is [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html), which documents "the C programming language _as implemented by the GNU Compiler Collection (GCC)_".
 
